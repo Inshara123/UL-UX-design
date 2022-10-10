@@ -1,0 +1,718 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header img {
+    height: 119px;
+    width: 119px;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    background-color: #F1F7FF;
+}
+
+header nav ul {
+     display: flex;
+    list-style-type: none;
+    margin: 48px 0px 0px 250px;
+    position: relative;
+   
+}
+
+header nav ul li a {
+    color: #786C6C;
+   font-size: 19px;
+    font-family: cursive;
+padding-left: 25px;
+text-decoration: none;
+
+}
+.part1 .one h1{
+    font-weight: 600;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #4700DE;
+   font-size: 19px;
+    position: absolute;
+    left: 34px;
+    top: 18px;
+}
+
+    .part1 .one h2{
+        font-weight: 900;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #6200DE;
+        font-size: 31px;
+        position: absolute;
+        left: 34px;
+        top: 54px;
+    }
+.part1 .one{
+    position: relative;
+}
+.part1 .one p{
+    
+    color: grey;
+    padding-top: 112px;
+    width: 390px;
+    height: 72px;
+    padding-left: 41px;
+    
+}
+.part1 .one .button{
+    color: white;
+    background-color: #6200DE;
+    font-family: mulish;
+    border: 2px solid #6200DE;
+    margin-top: 89px;
+    border-radius: 18px;
+    font-size: 17px;
+    width: 134px;
+    line-height: 176.85%;
+    margin-left: 71px;
+    padding: 2px 4px 2px 4px;
+    cursor: pointer;
+}
+.part1 .one .button:hover{
+    color: black;
+    margin-top: 93px;
+    margin-left: 74px;
+}
+.part1{
+    background-color: #F1F7FF;
+   height: 272px;
+ 
+}
+.part1{
+    display: flex;
+}
+.part1 .two img{
+    height: 335px;
+    width: 400px;
+    margin-left: 139px;
+    margin-top: -69px;
+}
+.part2 h1{
+    font-family: mulish;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700px;
+    text-align: center;
+    color: #6200DE;
+
+}
+.part2 p{
+    font-family: mulish;
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+    color: 
+    rgba(0, 0, 0, 0.41);
+    padding-top: 10px;
+}
+.part2 .three{
+    display: flex;
+    justify-content: space-evenly;
+}
+.part2 .three .image img{
+    height: 50px;
+    width: 50px;
+    margin-top: 42px;
+    margin-left: 29px;
+    
+}
+.part2 .three .image h2{
+    font-family: mulish;
+    margin-top: 10px;
+}
+.part2 .three .image h3{
+    
+    font-family: mulish;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.part3{
+    display: flex;
+}
+.part3 .left img{
+    height: 299px;
+    width: 362px;
+    margin-left: 77px;
+    margin-top: 89px;
+}
+.part3 .right h1{
+    color: #6200DE;
+    margin-left: 90px;
+    margin-top: 89px;
+    font-family: 'Mulish';
+}
+.part3 .right p{
+    width: 347px;
+    margin-left: 87px;
+    margin-top: 20px;
+    line-height: 22px;
+    font-size: 20px;
+   color: rgba(0, 0, 0, 0.41);
+}
+.part3 .right ul{
+    list-style-type: none;
+    display: inline-block;
+    font-family: mulish;
+    color: rgba(0, 0, 0, 0.41);
+    margin-left: 87px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 37px;
+    
+   
+}
+.part3 .right ul li{
+    position: relative;
+}
+.part3 .right ul li::before{
+    content: "";
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG0E1FUnoJv3RbM_lp_1-kOWXZfEB__23mLujkKyeC7w&s);
+    background-size: cover;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: -25px;
+    display: block;
+    bottom: 12px;
+}
+
+.part3 .right .button{
+    color: white;
+    background-color: #6200DE;
+    font-family: mulish;
+    border: 2px solid #6200DE;
+    margin-top: 18px;
+    border-radius: 18px;
+    font-size: 17px;
+    width: 129px;
+    line-height: 176.85%;
+    margin-left: 120px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.part4{
+    display: flex;
+}
+.part4 .left h1{
+    color: #6200DE;
+    margin-left: 90px;
+    margin-top: 80px;
+    font-family: 'Mulish';
+}
+.part4 .left p{
+    width: 347px;
+    margin-left: 87px;
+    margin-top: 20px;
+    line-height: 22px;
+    font-size: 20px;
+   color: rgba(0, 0, 0, 0.41);
+}
+.part4 .left ul{
+    list-style-type: none;
+    display: inline-block;
+    font-family: mulish;
+    color: rgba(0, 0, 0, 0.41);
+    margin-left: 87px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 37px;
+    
+}
+.part4 .left ul li{
+    position: relative;
+}
+.part4 .left ul li::before{
+    content: "";
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG0E1FUnoJv3RbM_lp_1-kOWXZfEB__23mLujkKyeC7w&s);
+    background-size: cover;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: -25px;
+    display: block;
+    bottom: 12px;
+}
+
+.part4 .left .button{
+    color: white;
+    background-color: #6200DE;
+    font-family: mulish;
+    border: 2px solid #6200DE;
+    margin-top: 18px;
+    border-radius: 18px;
+    font-size: 17px;
+    width: 129px;
+    line-height: 176.85%;
+    margin-left: 120px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.part4 .right img{
+    height: 299px;
+    width: 380px;
+    margin-left: 77px;
+    margin-top: 89px;
+}
+.part5 .main{
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+
+}
+.part5 .main .text h1{
+    font-family: mulish;
+     margin-left: 21px;
+    color: #6200DE;
+    font-size: 23px;
+    font-weight: 700;
+}
+.part5 .main .text h2{
+    font-family: mulish;
+    color: rgba(0, 0, 0, 0.41);
+    margin-left: 17px;
+    font-size: 15px;
+}
+.part5 .main .img {
+    margin-left: 44px;
+}
+.part6{
+    display: flex;
+}
+.part6 .left1 .up1{
+
+    margin-left: 83px;
+    margin-right: 7px;
+    margin-top: 145px;
+    border: 3px solid gainsboro;
+}
+.part6 .left1 .up1 h2{
+    font-family: mulish;
+    color: #6200DE;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.part6 .left1 .up1 p{
+    font-family: mulish;
+    width: 234px;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 15px;
+    line-height: 31px;
+    padding-bottom: 22px;
+}
+.part6 .left1 .up1 img{
+    height: 180px;
+    width: 234px;
+}
+.part6 .left1 .up2{
+
+    margin-left: 19px;
+    margin-top: 54px;
+    border: 3px solid gainsboro;
+    /* box-shadow: 2px 1px 2px 2px; */
+    margin-bottom: 93px;
+}
+
+.part6 .left1 .up2 h2{
+    font-family: mulish;
+    color: #6200DE;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.part6 .left1 .up2 p{
+    font-family: mulish;
+    width: 234px;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 15px;
+    line-height: 31px;
+    padding-bottom: 22px;
+}
+.part6 .left1 .up2 img{
+    height: 180px;
+    width: 234px;
+}
+.part6 .left1{
+    display: flex;
+}
+.part6 .right{
+    margin-left: -40px;
+    margin-top: 118px;
+}
+
+.part6 .right h1{
+    color: #6200DE;
+    margin-left: 90px;
+    margin-top: 80px;
+    font-family: 'Mulish';
+}
+.part6 .right p{
+    width: 347px;
+    margin-left: 87px;
+    margin-top: 20px;
+    line-height: 22px;
+    font-size: 20px;
+   color: rgba(0, 0, 0, 0.41);
+}
+.part6 .right ul{
+    list-style-type: none;
+    display: inline-block;
+    font-family: mulish;
+    color: rgba(0, 0, 0, 0.41);
+    margin-left: 87px;
+    margin-top: 20px;
+    font-size: 16px;
+   
+    line-height: 37px;
+}
+.part6 .right ul li{
+    position: relative;
+}
+.part6 .right ul li::before{
+    content: "";
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG0E1FUnoJv3RbM_lp_1-kOWXZfEB__23mLujkKyeC7w&s);
+    background-size: cover;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: -25px;
+    display: block;
+    bottom: 12px;
+}
+
+.part6 .right .button{
+    color: white;
+    background-color: #6200DE;
+    font-family: mulish;
+    border: 2px solid #6200DE;
+    margin-top: 18px;
+    border-radius: 18px;
+    font-size: 17px;
+    width: 253px;
+    line-height: 176.85%;
+    margin-left: 120px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.part7 .left2{
+    display: flex;
+}
+.part7 .left2 .up1{
+
+    margin-left: 83px;
+    margin-right: 7px;
+    margin-top: 32px;
+    margin-bottom: 131px;
+    border: 3px solid gainsboro;
+}
+.part7 .left2 .up1 h2{
+    font-family: mulish;
+    color: #6200DE;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.part7 .left2 .up1 p{
+    font-family: mulish;
+    width: 234px;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 15px;
+    line-height: 31px;
+    padding-bottom: 22px;
+}
+.part7 .left2 .up1 img{
+    height: 180px;
+    width: 234px;
+}
+.part7 .left2 .up2{
+
+    margin-left: 19px;
+    margin-top: -51px;
+    border: 3px solid gainsboro;
+    /* box-shadow: 2px 1px 2px 2px; */
+    margin-bottom: 219px;
+}
+
+.part7 .left2 .up2 h2{
+    font-family: mulish;
+    color: #6200DE;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.part7 .left2 .up2 p{
+    font-family: mulish;
+    width: 234px;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 15px;
+    line-height: 31px;
+    padding-bottom: 22px;
+}
+.part7 .left2 .up2 img{
+    height: 180px;
+    width: 234px;
+}
+.part8 h1{
+    font-family: mulish;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #6200DE;
+    margin-top: -84px;
+}
+.part8 h2{
+    font-family: mulish;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.41);
+}
+.part8 .main{
+    display: flex;
+}
+.part8 .main .do{
+    margin-left: 67px;
+}
+.part8 .main .avoid{
+    margin-left: 36px;
+}
+.part8 .main .do ul{
+list-style: none;
+font-family: 'Mulish';
+line-height: 32px;
+margin-top: 10px;
+font-size: 15px;
+
+}
+.part8 .main .do ul li{
+    position: relative;
+}
+.part8 .main .do ul li::before{
+    content: "";
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG0E1FUnoJv3RbM_lp_1-kOWXZfEB__23mLujkKyeC7w&s);
+    background-size: cover;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: -25px;
+    display: block;
+    bottom: 12px;
+}
+.part8 .main .avoid ul{
+    list-style: none;
+    }
+.part8 .main .do h2{
+
+    font-size: 25px;
+    padding-top: 34px;
+    color: rgb(98, 0, 222);
+    margin-left: -122px;
+}
+  
+.part8 .main .avoid h2{
+
+    font-size: 25px;
+    padding-top: 34px;
+    color: rgb(98, 0, 222);
+    margin-left: -90px;
+}
+.part8 .main .avoid ul{
+    list-style: none;
+    font-family: 'Mulish';
+    line-height: 32px;
+    margin-top: 10px;
+    font-size: 15px;
+  
+}
+.part8 .main .img img{
+    height: 225px;
+    width: 250px;
+    margin-left: 75px;
+}
+.part8 .main .avoid ul li{
+    position: relative;
+}
+.part8 .main .avoid ul li::before{
+    content: "";
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG0E1FUnoJv3RbM_lp_1-kOWXZfEB__23mLujkKyeC7w&s);
+    background-size: cover;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: -25px;
+    display: block;
+    bottom: 12px;
+}
+.part9 h1{
+    font-family: mulish;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #6200DE;
+    margin-top: -84px;
+}
+.part9 h2{
+    font-family: mulish;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+.part9 {
+    margin-top: 127px;
+
+}
+
+/* .part9 .main-up h1{
+    color: black;
+    font-size: 16px;
+    font-family: 'Mulish';
+    padding-left: 73px;
+    line-height: 31px;
+}
+.part9 .main-up p{
+    font-family: Mulish;
+    color: rgba(0, 0, 0, 0.41);
+    width: 299px;
+    padding-left: 124px;
+    font-size: 14px;
+}
+.part9 .main-up .up{
+    margin-left: 10px;
+} */
+.part9 .one {
+    display: flex;
+}
+.part9 .one .text h3{
+    color: black;
+    font-size: 16px;
+    font-family: 'Mulish';
+    line-height: 31px;
+}
+.part9 .one .text p{
+    font-family: Mulish;
+    color: rgba(0, 0, 0, 0.41);
+    width: 299px;
+   
+    font-size: 14px;
+}
+.part9 .main{
+    display: flex;
+    justify-content: space-around;
+}
+.part9 .one .text h3{
+    color: black;
+    font-size: 16px;
+    font-family: 'Mulish';
+    line-height: 31px;
+    text-align: center;
+}
+.part9 .one .text p{
+    font-family: Mulish;
+    color: rgba(0, 0, 0, 0.41);
+    width: 222px;
+   
+    font-size: 14px;
+}
+.part9 .main1{
+    display: flex;
+    justify-content: space-around;
+}
+.part9 .main .one{
+    border: 2px solid gainsboro;
+    margin-top: 62px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.part9 .main1 .one{
+    border: 2px solid gainsboro;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin-top: 62px;
+    margin-bottom: 108px;
+}
+.part9{
+    background-color: #F8FFFF;
+}
+footer h1{
+    font-family: mulish;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #6200DE;
+    margin-top: -84px;
+}
+footer h2{
+    font-family: mulish;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.41);
+}
+.heading{
+    font-family: mulish;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #6200DE;
+    margin-top: -84px;
+}
+.head{
+    font-family: mulish;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.41);
+}
+.headings{
+    margin-top: 121px;
+}
+footer{
+    display: flex;
+    margin-top: 20px;
+   
+}
+footer .last .text h4{
+    display: inline;
+    font-family: Mulish;
+   color:  rgba(0, 0, 0, 0.41);
+   text-align: center;
+
+}
+footer .last .text h3{
+    display: inline;
+    font-family: Mulish;
+   color:  rgba(0, 0, 0, 0.41);
+   text-align: center;
+  
+}
+footer .last img{
+    height: 200px;
+    margin-left: 36px;
+
+}
+footer .last .text img{
+    height: 23px;
+    width: 23px;
+
+}
+footer .last .text{
+    margin-top: 10px;
+    margin-left: 22px;
+}
+footer .last p{
+    color: #6200DE;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 67px;
+    margin-left: 66px;
+}
